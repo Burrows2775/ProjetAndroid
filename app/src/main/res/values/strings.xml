@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name" translatable="false">ProjetAndroid</string>
-    <string name="text_bouton_calculatrice">Calculatrice</string>
-    <string name="text_bouton_historique">Historique</string>
+    <string name="app_name" translatable="false">MathQuiz</string>
+    <string name="text_bouton_jouer">Jouer</string>
+    <string name="text_bouton_highscores">Meilleurs scores</string>
+    <string name="score">Score : %d</string>
+    <string name="vies">Vies : %d</string>
+    <string name="valider">Valider</string>
+    <string name="reponse_hint">Votre réponse</string>
+    <string name="game_over">Partie terminée</string>
+    <string name="entrez_nom">Entrez votre prénom pour enregistrer votre score</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="ignorer">Ignorer</string>
+    <string name="highscores_title">Meilleurs scores</string>
+    <string name="retour">Retour</string>
+    <string name="bonne_reponse">Bonne réponse !</string>
+    <string name="mauvaise_reponse">Mauvaise réponse ! La bonne était : %d</string>
+    <string name="aucun_score">Aucun score enregistré</string>
+    <string name="nom_hint">Votre prénom</string>
+    <string name="saisie_invalide">Saisie invalide</string>
 </resources>

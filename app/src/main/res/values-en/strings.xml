@@ -1,0 +1,19 @@
+<resources>
+    <string name="text_bouton_jouer">Play</string>
+    <string name="text_bouton_highscores">High Scores</string>
+    <string name="score">Score: %d</string>
+    <string name="vies">Lives: %d</string>
+    <string name="valider">Submit</string>
+    <string name="reponse_hint">Your answer</string>
+    <string name="game_over">Game Over</string>
+    <string name="entrez_nom">Enter your name to save your score</string>
+    <string name="enregistrer">Save</string>
+    <string name="ignorer">Skip</string>
+    <string name="highscores_title">High Scores</string>
+    <string name="retour">Back</string>
+    <string name="bonne_reponse">Correct!</string>
+    <string name="mauvaise_reponse">Wrong! The answer was: %d</string>
+    <string name="aucun_score">No scores recorded</string>
+    <string name="nom_hint">Your name</string>
+    <string name="saisie_invalide">Invalid input</string>
+</resources>
