@@ -2,6 +2,9 @@
     <string name="app_name" translatable="false">MathQuiz</string>
     <string name="text_bouton_jouer">Jouer</string>
     <string name="text_bouton_highscores">Meilleurs scores</string>
+    <string name="choisir_langue">Langue</string>
+    <string name="langue_fr">Français</string>
+    <string name="langue_en">Anglais</string>
     <string name="score">Score : %d</string>
     <string name="vies">Vies : %d</string>
     <string name="valider">Valider</string>

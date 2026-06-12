@@ -6,6 +6,7 @@ espressoCore = "3.5.1"
 appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
+coreKtx = "1.13.1"
 constraintlayout = "2.1.4"
 
 [libraries]
@@ -15,6 +16,7 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 [plugins]

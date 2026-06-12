@@ -8,6 +8,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +20,20 @@ public class HighscoreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_highscore);
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content), (view, windowInsets) -> {
+            int topInsetTypes = WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout();
+            int topInset = windowInsets.getInsets(topInsetTypes).top;
+
+            view.setPadding(
+                    view.getPaddingLeft(),
+                    topInset,
+                    view.getPaddingRight(),
+                    view.getPaddingBottom()
+            );
+
+            return windowInsets;
+        });
 
         Button btnBack = findViewById(R.id.btn_back);
         ListView lvScores = findViewById(R.id.lv_scores);

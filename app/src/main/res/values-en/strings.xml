@@ -1,6 +1,9 @@
 <resources>
     <string name="text_bouton_jouer">Play</string>
     <string name="text_bouton_highscores">High Scores</string>
+    <string name="choisir_langue">Language</string>
+    <string name="langue_fr">French</string>
+    <string name="langue_en">English</string>
     <string name="score">Score: %d</string>
     <string name="vies">Lives: %d</string>
     <string name="valider">Submit</string>
